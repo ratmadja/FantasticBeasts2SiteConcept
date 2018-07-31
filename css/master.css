@@ -78,12 +78,11 @@ body {
 
 /* Start of hero-styling */
 .hero-content {
-  padding-top: 1em;
+  padding-top: 0.75em;
 }
 .video-hero {
   /* border: 1px solid red; */
   width: 100%;
-  margin-top: 5%;
 }
 .section-title {
   text-align: center;
@@ -342,7 +341,7 @@ footer .container-text {
     grid-auto-flow: dense;
   }
   .video-hero {
-    padding-bottom: -6em;
+    /* padding-bottom: -6em; */
   }
   .section-title {
     margin-top: 2em;
