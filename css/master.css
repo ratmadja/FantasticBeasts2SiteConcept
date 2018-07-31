@@ -349,6 +349,8 @@ footer .container-text {
     grid-auto-flow: dense;
   }
   .fixed-nav {
+    width: 80%;
+    margin: auto;
     flex-direction: column;
     align-items: center;
   }
@@ -391,6 +393,9 @@ footer .container-text {
     padding: 0.25em;
     font-size: 0.75em;
   }
+  .trailer-embed {
+    height: 300px;
+  }
   .cta-tagline {
     margin: auto;
     width: 80%;
@@ -420,6 +425,8 @@ footer .container-text {
     grid-auto-flow: dense;
   }
   .fixed-nav {
+    width: 90%;
+    margin: auto;
     flex-direction: column;
     align-items: center;
   }
@@ -457,6 +464,9 @@ footer .container-text {
     text-decoration: none;
     padding: 0.25em;
     font-size: 0.75em;
+  }
+  .trailer-embed {
+    height: 250px;
   }
   .video-cta {
     margin-left: 0;
