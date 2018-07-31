@@ -96,7 +96,6 @@ body {
 
 
 
-
 /* End of hero-styling */
 
 
@@ -320,6 +319,9 @@ footer .container-text {
   /* .container {
     border: 1px solid blue;
   } */
+  .section-title {
+    margin-top: 2em;
+  }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
@@ -333,6 +335,12 @@ footer .container-text {
     grid-template-columns: repeat(auto-fit, minmax(175px, 1fr));
     grid-auto-rows: 175px;
     grid-auto-flow: dense;
+  }
+  .video-hero {
+    padding-bottom: -6em;
+  }
+  .section-title {
+    margin-top: 2em;
   }
 }
 
@@ -361,15 +369,18 @@ footer .container-text {
   .hero-content {
     margin-top: 15%;
   }
+  .video-hero {
+    padding-bottom: 2em;
+  }
   .nav-menu > li {
     font-size: 1em;
   }
   .section-title {
     font-size: 1.5em;
-    line-height: 2em;
-    margin-top: 4em;
+    line-height: 1.5em;
+    margin-top: 2em;
     margin-bottom: 1em;
-    padding-top: 2em;
+    padding-top: 1em;
   }
   .cta-tagline {
     padding-top: 2em;
@@ -384,8 +395,8 @@ footer .container-text {
   .nav-trailer {
     width: 90%;
     margin: auto;
-    margin-top: 8em;
-    padding-top: 4em;
+    margin-top: 7em;
+    padding-top: 2em;
     padding-bottom: 2em;
   }
   .nav-trailer a {
@@ -395,6 +406,7 @@ footer .container-text {
   }
   .trailer-embed {
     height: 300px;
+    margin-bottom: 3em;
   }
   .cta-tagline {
     margin: auto;
@@ -408,6 +420,9 @@ footer .container-text {
   }
   .video-cta {
     margin-left: 0;
+    width: 100%;
+  }
+  .footer {
     width: 100%;
   }
 }
@@ -432,18 +447,21 @@ footer .container-text {
   }
   .nav-logo {
     width: 30%;
-    margin-top: 2%;
+    margin-top: 1%;
   }
   .hero-content {
     margin-top: 15%;
+  }
+  .video-hero {
+    margin-bottom: 4em;
   }
   .nav-menu > li {
     font-size: 1em;
   }
   .section-title {
     font-size: 1.5em;
-    line-height: 2em;
-    margin-top: 4em;
+    line-height: 1.5em;
+    margin-top: 1em;
     margin-bottom: 1em;
   }
   .container-text {
@@ -467,6 +485,7 @@ footer .container-text {
   }
   .trailer-embed {
     height: 250px;
+    margin-bottom: 3em;
   }
   .video-cta {
     margin-left: 0;
@@ -481,6 +500,9 @@ footer .container-text {
     margin-top: 6em;
     margin-bottom: 1em;
     color: hsla(343, 100%, 100%, 0.6);
+  }
+  .footer {
+    width: 100%;
   }
 
 }
