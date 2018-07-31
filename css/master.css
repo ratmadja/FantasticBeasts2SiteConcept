@@ -78,7 +78,7 @@ body {
 
 /* Start of hero-styling */
 .hero-content {
-
+  padding-top: 1em;
 }
 .video-hero {
   width: 100%;
