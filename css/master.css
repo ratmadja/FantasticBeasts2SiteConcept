@@ -30,7 +30,7 @@ body {
 
 
 /* Start of nav-styling */
-.fixed-nav {
+.fixedNav {
   /* border: 1px solid red; */
   background-color: hsla(343, 100%, 100%, 0);
   position: fixed;
@@ -42,6 +42,8 @@ body {
   display: flex;
   justify-content: space-between;
 }
+
+
 
 .nav-logo {
   /* border: 1px solid white; */
@@ -312,6 +314,7 @@ footer {
 }
 footer .container-text {
   width: 100%;
+  text-align: center;
 }
 /* End of CTA styling */
 
@@ -363,8 +366,8 @@ footer .container-text {
     grid-auto-rows: 175px;
     grid-auto-flow: dense;
   }
-  .fixed-nav {
-    width: 80%;
+  .fixedNav {
+    width: 100%;
     margin: auto;
     flex-direction: column;
     align-items: center;
@@ -446,8 +449,8 @@ footer .container-text {
     grid-auto-rows: 120px;
     grid-auto-flow: dense;
   }
-  .fixed-nav {
-    width: 90%;
+  .fixedNav {
+    width: 100%;
     margin: auto;
     flex-direction: column;
     align-items: center;
@@ -483,7 +486,7 @@ footer .container-text {
     padding-top: 2em;
     margin: auto;
     margin-top: 8em;
-    padding-bottom: 2em;
+    padding-bottom: 3em;
   }
   .nav-trailer a {
     text-decoration: none;

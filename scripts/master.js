@@ -1,6 +1,5 @@
 function onReady() {
 
-
   //JQuery for Jump-to-element
   //Will only work if href of <a> matches id of element to jump to
 
@@ -19,18 +18,25 @@ function onReady() {
     }
   });
 
+
+
+  //JQuery for changing CSS property on user scroll
+
+  $(document).ready(function(){
+              var scroll_pos = 0;
+              $(document).scroll(function() {
+                  scroll_pos = $(this).scrollTop();
+                  if(scroll_pos > 5) {
+                      $(".fixedNav").css('background-color', 'hsla(0, 0%, 0%, 0.5)');
+                  } else {
+                      $(".fixedNav").css('background-color', 'hsla(0, 0%, 0%, 0)');
+                  }
+              });
+          });
+
 };
 
 
 window.onload = function() {
   onReady();
 };
-
-
-// $(window).scroll(function() {
-//   if($(this).scrollTop()>650) {
-//     $('.navmenu').addClass("sticky");
-//   } else {
-//     $('.navmenu').removeClass("sticky");
-//   }
-// });
