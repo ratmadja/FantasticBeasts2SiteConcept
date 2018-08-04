@@ -27,7 +27,7 @@ function onReady() {
               $(document).scroll(function() {
                   scroll_pos = $(this).scrollTop();
                   if(scroll_pos > 5) {
-                      $(".fixedNav").css('background-color', 'hsla(0, 0%, 0%, 0.5)');
+                      $(".fixedNav").css('background-color', 'hsla(0, 0%, 0%, 0.75)');
                   } else {
                       $(".fixedNav").css('background-color', 'hsla(0, 0%, 0%, 0)');
                   }
